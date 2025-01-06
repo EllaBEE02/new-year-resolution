@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development & Agriculture: A Journey</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: linear-gradient(90deg, #3f87a6, #ebf8e1);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #3f87a6;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h2 {
+            font-size: 2.2em;
+            margin: 0 0 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .card h3 {
+            margin: 0 0 10px;
+        }
+        .footer {
+            background: #3f87a6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A Journey into Web Development & Agriculture</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#tech">Technology</a>
+        <a href="#agriculture">Agriculture</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Empowering Sustainable Agriculture through Technology</h2>
+        <p>Follow the journey of a young innovator as she bridges the gap between tech and farming in 2025.</p>
+    </section>
+    <section id="about">
+        <h2>About the Journey</h2>
+        <p>This journey chronicles a girl's exploration into web development, how she mastered the craft, and applied it to revolutionize agriculture in her community.</p>
+    </section>
+    <section id="tech">
+        <h2>Technological Milestones</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Learning HTML & CSS</h3>
+                <p>Her first step into coding, building simple, beautiful websites.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript Mastery</h3>
+                <p>Unlocking the potential of interactivity and real-time applications.</p>
+            </div>
+            <div class="card">
+                <h3>APIs and Data</h3>
+                <p>Integrating APIs to access and process agricultural data.</p>
+            </div>
+        </div>
+    </section>
+    <section id="agriculture">
+        <h2>Applications in Agriculture</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Smart Farming</h3>
+                <p>Using sensors and web platforms to optimize crop yields.</p>
+            </div>
+            <div class="card">
+                <h3>Market Access</h3>
+                <p>Building online platforms for farmers to sell directly to consumers.</p>
+            </div>
+            <div class="card">
+                <h3>Community Training</h3>
+                <p>Teaching others in her community how to use tech to improve farming.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Empowering Agriculture Through Tech</p>
+    </footer>
+</body>
+</html>
