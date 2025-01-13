@@ -9,77 +9,177 @@
       href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="other.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <div class="container">
-      <img
-        src="https://opendoodles.s3-us-west-1.amazonaws.com/moshing.svg"
-        width="300px"
-      />
+  <nav class="py-2 bg-body-tertiary border-bottom">
+    <div class="container d-flex flex-wrap">
+      <ul class="nav me-auto">
+        <li class="nav-item">
+          <a
+            href="#"
+            class="nav-link link-body-emphasis px-2 active"
+            aria-current="page"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-body-emphasis px-2">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-body-emphasis px-2">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-body-emphasis px-2">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-body-emphasis px-2">About</a>
+        </li>
+      </ul>
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link link-body-emphasis px-2">Login</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link-body-emphasis px-2">Sign up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-      <h1>Step Forward Studio</h1>
-      <p class="copy header">
-        Your Destination for Growth, Goals, and Greatness
-      </p>
-      <p class="copy">
-        At Step Forward Studio, we believe every step — no matter how small —
-        leads to incredible change. This is your space to dream boldly, plan
-        purposefully, and celebrate every milestone on your journey to becoming
-        your best self in the year ahead.
-      </p>
-      <div class="offer-wrapper">
-        <!-- <h2>What We Offer</h2> -->
-        <div class="card">
-          <div class="card-holder">
+  <body>
+    <div
+      class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-white"
+    >
+      <div class="col-md-6 p-lg-5 mx-auto mb-5">
+        <h1 class="display-3 fw-bold">Step Forward Studios</h1>
+        <h3 class="fw-normal text-muted mb-3">
+          Your Destination for Growth, Goals, and Greatness
+        </h3>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
             <img
-              src="https://opendoodles.s3-us-west-1.amazonaws.com/reading.svg"
-              width="300px"
+              src="https://opendoodles.s3-us-west-1.amazonaws.com/zombieing.svg"
+              class="img-fluid"
             />
-            <h3>Personalized Resolutions</h3>
-            <p class="card-text">
-              Turn your dreams into actionable steps with our easy-to-use tools
-              and resources.
-            </p>
           </div>
-          <div class="card-holder">
+          <div class="col">
             <img
-              src="https://opendoodles.s3-us-west-1.amazonaws.com/clumsy.svg"
-              width="300"
+              src="https://opendoodles.s3-us-west-1.amazonaws.com/sprinting.gif"
+              class="img-fluid"
             />
-            <h3>Progress Tracking</h3>
-            <p class="card-text">
-              Monitor your journey with intuitive features designed to keep you
-              motivated.
-            </p>
           </div>
-          <div class="card-holder">
+          <div class="col">
             <img
-              src="https://opendoodles.s3-us-west-1.amazonaws.com/laying.svg"
-              width="300"
+              src="https://opendoodles.s3-us-west-1.amazonaws.com/moshing.svg"
+              class="img-fluid"
             />
-            <h3>Inspiration & Insights</h3>
-            <p class="card-text">
-              Explore articles, videos, and stories to fuel your dreams and
-              spark fresh ideas.
-            </p>
-          </div>
-          <div class="card-holder">
-            <img
-              src="https://opendoodles.s3-us-west-1.amazonaws.com/selfie.svg"
-              width="300"
-            />
-            <h3>Community Support</h3>
-            <p class="card-text">
-              Connect with like-minded individuals, stepping forward just like
-              you.
-            </p>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container">
+      <h3 class="border-bottom pb-5">
+        At Step Forward Studios,
+        <small class="text-body-secondary"
+          >we believe every step — no matter how small — leads to incredible
+          change. This is your space to dream boldly, plan purposefully, and
+          celebrate every milestone on your journey to becoming your best self
+          in the year ahead.</small
+        >
+      </h3>
+
+      <div class="container px-4 py-5">
+        <!-- <h2 class="pb-2 border-bottom">On your journey with us you'll...</h2> -->
+
+        <div
+          class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2"
+        >
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="fw-bold text-body-emphasis">
+              At Step Forward Studios, we provide the tools, guidance and
+              community you need.
+            </h2>
+            <p class="text-body-secondary">
+              All these help you to transform your aspirations into
+              achievements. Whether you're aiming for personal growth,
+              professional success, or simply creating better habits, our
+              offerings are designed to support every step of your journey.
+            </p>
+            <a href="#" class="btn btn-primary btn-lg"
+              >Start your journey now</a
+            >
+          </div>
+
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <img
+                  src="https://opendoodles.s3-us-west-1.amazonaws.com/reading.svg"
+                />
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Personalized Resolutions
+                </h4>
+                <p class="text-body-secondary">
+                  Turn your dreams into actionable steps with our easy-to-use
+                  tools and resources.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <img
+                  src="https://opendoodles.s3-us-west-1.amazonaws.com/clumsy.svg"
+                />
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Progress Tracking
+                </h4>
+                <p class="text-body-secondary">
+                  Monitor your journey with intuitive features designed to keep
+                  you motivated.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <img
+                  src="https://opendoodles.s3-us-west-1.amazonaws.com/laying.svg"
+                />
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Inspiration & Insights
+                </h4>
+                <p class="text-body-secondary">
+                  Explore articles, videos, and stories to fuel your dreams and
+                  spark fresh ideas.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <img
+                  src="https://opendoodles.s3-us-west-1.amazonaws.com/selfie.svg"
+                />
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Community Support
+                </h4>
+                <p class="text-body-secondary">
+                  Connect with like-minded individuals, stepping forward just
+                  like you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="why-section">
-        <div class="why-header-image">
+        <!-- <div class="why-header-image">
           <p class="copy header">Why Choose Step Forward Studio?</p>
           <img
             src="https://assets.website-files.com/5da6261a45eff13329fdd324/5da6272f2b9e5826d0304a41_feature-window-1.svg"
@@ -91,17 +191,141 @@
             alt=""
             class="small-img"
           />
-        </div>
-        <div class="why-copy">
-          <p class="copy">
-            We’re more than just a website—we’re your accountability partner,
-            cheerleader, and guide. Whether you’re setting resolutions, building
-            new habits, or pivoting toward a brighter future, our platform is
-            designed to make your path clear, simple, and rewarding.
-          </p>
+        </div> -->
+        <div class="container border-top">
+          <div class="row">
+            <div class="col">
+              <img
+                src="https://assets.website-files.com/5da6261a45eff13329fdd324/5da6272f2b9e5826d0304a41_feature-window-1.svg"
+                alt="..."
+                class="mt-5"
+              />
+              <img
+                src="./images/SleekDoodle.svg"
+                alt=""
+                class="img-fluid mt-5"
+              />
+            </div>
+            <div class="col mt-5">
+              <div class="col d-flex flex-column align-items-start gap-2">
+                <h2 class="fw-bold text-body-emphasis">
+                  Why Choose Step Forward Studios?
+                </h2>
+                <p class="text-body-secondary lh-lg">
+                  We’re more than just a website—we’re your accountability
+                  partner, cheerleader, and guide. Whether you’re setting
+                  resolutions, building new habits, or pivoting toward a
+                  brighter future, our platform is designed to make your path
+                  clear, simple, and rewarding.
+                </p>
+                <div class="container px-4 py-5" id="icon-grid">
+                  <h2 class="pb-2 border-bottom">How It Works</h2>
+
+                  <div
+                    class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-2 g-4 py-5"
+                  >
+                    <div class="col d-flex align-items-start">
+                      <svg
+                        class="bi text-body-secondary flex-shrink-0 me-3"
+                        width="1.75em"
+                        height="1.75em"
+                      >
+                        <use xlink:href="#bootstrap"></use>
+                      </svg>
+                      <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                          Plan Your Steps
+                        </h3>
+                        <p>Define what matters most to you.</p>
+                      </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                      <svg
+                        class="bi text-body-secondary flex-shrink-0 me-3"
+                        width="1.75em"
+                        height="1.75em"
+                      >
+                        <use xlink:href="#cpu-fill"></use>
+                      </svg>
+                      <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                          Set Your Goals
+                        </h3>
+                        <p>
+                          Use our tools to break big dreams into manageable
+                          tasks.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                      <svg
+                        class="bi text-body-secondary flex-shrink-0 me-3"
+                        width="1.75em"
+                        height="1.75em"
+                      >
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                          Take Action Daily
+                        </h3>
+                        <p>
+                          Stay on track with reminders, tips, and progress
+                          reports.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                      <svg
+                        class="bi text-body-secondary flex-shrink-0 me-3"
+                        width="1.75em"
+                        height="1.75em"
+                      >
+                        <use xlink:href="#home"></use>
+                      </svg>
+                      <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                          Celebrate Growth
+                        </h3>
+                        <p>
+                          Reflect on your wins—big and small—and keep stepping
+                          forward.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <!-- <img src="https://opendoodles.s3-us-west-1.amazonaws.com/moshing.svg" width="300px"/> -->
+    </div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">
+          © Step Forward Studios, Inc
+        </p>
+      </footer>
     </div>
   </body>
 </html>
